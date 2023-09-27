@@ -1,0 +1,122 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.weather-info {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.weather-info div {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#temperature,
+#humidity,
+#wind,
+#description,
+#error {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#temperature::before,
+#humidity::before,
+#wind::before,
+#description::before {
+    content: "•";
+    margin-right: 5px;
+    color: #007BFF;
+}
+
+#temperature {
+    color: #ff5733; /* Red for temperature */
+}
+
+#humidity {
+    color: #3498db; /* Blue for humidity */
+}
+
+#wind {
+    color: #27ae60; /* Green for wind */
+}
+
+#description {
+    color: #333; /* Dark gray for description */
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+
+
